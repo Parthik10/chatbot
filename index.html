@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/070428bd88.js" crossorigin="anonymous"></script>
+    
+    <!-- External CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Title of the web page -->
+    <title>ChatBot | Coderider</title>
+</head>
+<body>
+    <!-- Main chat section -->
+    <section class="msger">
+        <!-- Header section of the chat -->
+        <header class="msger-header">
+          <div class="msger-header-title">
+            <!-- ChatBot image and title -->
+            <img src="chatbot.png" alt="" srcset="" >
+            <pre>GEHU ChatBot   </pre> 
+            
+            <a href="https://www.gehu.ac.in/" target="_main"><img src="graphic.jpg" alt="graphic" srcset="" id="hover-image"  ></a>
+          </div>
+        </header>
+        
+        <!-- Main chat area -->
+        <main class="msger-chat">
+          <!-- Sample left (Bot) message -->
+          <div class="msg left-msg">
+            <div class="msg-img" style="background-image: url(bot.png)"></div>
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <!-- Bot's name and time -->
+                <div class="msg-info-name">BOT</div>
+                <div class="msg-info-time">12:45</div>
+              </div>
+              <!-- Bot's initial message -->
+              <div class="msg-text">
+                Hi, welcome to Parthik's ChatBot!!
+                <br>
+                type hi to start!
+              </div>
+            </div>
+          </div>
+          
+          <!-- Sample right (User) message -->
+          <div class="msg right-msg">
+            <div class="msg-img" style="background-image: url(user.png)"></div>
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <!-- User's name and time -->
+                <div class="msg-info-name">Coderider</div>
+                <div class="msg-info-time">12:46</div>
+              </div>
+              <!-- User's message -->
+              <div class="msg-text">
+                hey! 
+              </div>
+            </div>
+          </div>
+        </main>
+        <!-- Input area for user to type messages -->
+        <form class="msger-inputarea">
+          <input type="text" class="msger-input" placeholder="Enter your message...">
+          <button type="submit" class="msger-send-btn">
+            <!-- Send button icon -->
+            <i class="fa fa-paper-plane"></i>
+          </button>
+        </form>
+    </section>
+
+    <!-- JavaScript file for handling chat functionality -->
+    <script src="main.js"></script>
+
+</body>
+</html>
